@@ -1,0 +1,67 @@
+.progress-line{
+    position: relative;
+    width: 16%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #cdf8b8;
+    margin-top: 10px;
+}
+.progress-line span{
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #20c997;
+}
+.rout-heading{
+    animation: slideRight 1s ease forwards;
+}
+.social{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    color: #20c997;
+    border: 1px solid #20c997;
+    transition: .5s ease;
+}
+.social:hover{
+    background-color: #20c997;
+    color: #081b29;
+    box-shadow: 0 0 20px #20c997;
+}
+.skill-title{
+    animation: slideUp 1s ease forwards;
+}
+.author-img{
+    animation: moving 4s ease-in-out infinite;
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-90px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes slideUp{
+    0%{
+        transform: translateY(-110px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes moving{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
