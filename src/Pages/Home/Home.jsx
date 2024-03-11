@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Typed from "typed.js";
 import WebTitle from "../../Shared/WebTitle/WebTitle";
 
-const pdfUrl = 'https://mahbub23-portfolio.netlify.app/Mahbub_Resume.pdf';
+const pdfUrl = 'https://mahbub23-portfolio.netlify.app/Mahbub-Resume.pdf';
 const Home = () => {
   const reference = useRef(null);
   useEffect(() => {
@@ -30,7 +30,7 @@ const Home = () => {
         const blobUrl = window.URL.createObjectURL(new Blob([blob], {type: 'octet-stream'}));
         const aTag = document.createElement('a');
         aTag.href =blobUrl;
-        aTag.setAttribute('download', 'Mahbub_Resume.pdf');
+        aTag.setAttribute('download', 'Mahbub-Resume.pdf');
         document.body.appendChild(aTag);
         aTag.click();
         aTag.remove();

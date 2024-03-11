@@ -4,7 +4,7 @@ const WebTitle = ({title}) => {
     return (
         <div>
             <Helmet>
-                <title>Mahbub_Resume || {title}</title>
+                <title>Mahbub_Portfolio || {title}</title>
             </Helmet>
         </div>
     );

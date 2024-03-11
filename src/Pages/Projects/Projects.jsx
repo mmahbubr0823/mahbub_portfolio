@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className='mt-12'>
             <WebTitle title={'Projects'}></WebTitle>
-            <PageHeading title={'  What have I build?'}></PageHeading>
+            <PageHeading title={'  What have I built?'}></PageHeading>
             <div className='mt-10'>
                 <h1 className='text-2xl mb-6'>My Latest Projects :</h1>
                 <div className='flex gap-5'>
@@ -32,7 +32,7 @@ const Projects = () => {
                             </Typography>
                         </CardBody>
                         <CardFooter className='mx-auto'>
-                            <Link to="/">
+                            <Link to="/weedyHub">
                             <button className='bg-[#3c393c] font-bold bg-opacity-80 border-[1px] border-[#20c997] rounded-xl px-6 py-3 hover:cursor-pointer hover:bg-[#20c997] hover:text-black my-5'>Details</button>
                             </Link>
                         </CardFooter>
@@ -59,7 +59,7 @@ const Projects = () => {
                             </Typography>
                         </CardBody>
                         <CardFooter className='mx-auto'>
-                            <Link to="/">
+                            <Link to="/feedTheHunger">
                             <button className='bg-[#3c393c] font-bold bg-opacity-80 border-[1px] border-[#20c997] rounded-xl px-6 py-3 hover:cursor-pointer hover:bg-[#20c997] hover:text-black my-5'>Details</button>
                             </Link>
                         </CardFooter>
@@ -86,7 +86,7 @@ const Projects = () => {
                             </Typography>
                         </CardBody>
                         <CardFooter className='mx-auto'>
-                            <Link to="/">
+                            <Link to="/foodyWorld">
                             <button className='bg-[#3c393c] font-bold bg-opacity-80 border-[1px] border-[#20c997] rounded-xl px-6 py-3 hover:cursor-pointer hover:bg-[#20c997] hover:text-black my-5'>Details</button>
                             </Link>
                         </CardFooter>

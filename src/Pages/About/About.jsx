@@ -10,7 +10,7 @@ const About = () => {
             <div className='flex items-center gap-6 my-10'>
             <div className='flex flex-col gap-6'>
                 <a href="https://github.com/mmahbubr0823"><FaGithub className="social"></FaGithub></a>
-                <a href="www.linkedin.com/in/md-mahbubur-rahman-62a6302b5"><FaLinkedin className="social"></FaLinkedin></a>
+                <a href="https://www.linkedin.com/in/md-mahbubur-rahman-62a6302b5"><FaLinkedin className="social"></FaLinkedin></a>
                 <a href="https://www.facebook.com/profile.php?id=100046483116387"><FaFacebook className="social"></FaFacebook></a>
             </div>
             <div>

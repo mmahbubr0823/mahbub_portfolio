@@ -7,6 +7,9 @@ import Skills from "../Pages/Skills/Skills";
 import Experience from "../Pages/Experience/Experience";
 import Projects from "../Pages/Projects/Projects";
 import Contact from "../Pages/Contact/Contact";
+import WeedyHub from "../Pages/ProjectsDetails/WeedyHub/WeedyHub";
+import FeedTheHunger from "../Pages/ProjectsDetails/FeedTheHunger/FeedTheHunger";
+import FoodyWorld from "../Pages/ProjectsDetails/FoodyWorld/FoodyWorld";
 const MyCreatedRoutes = createBrowserRouter([
     {
         path:'/',
@@ -39,6 +42,19 @@ const MyCreatedRoutes = createBrowserRouter([
             {
                 path:'/contact',
                 element:<Contact></Contact>
+            },
+            // projects details 
+            {
+                path:'/weedyHub',
+                element:<WeedyHub></WeedyHub>
+            },
+            {
+                path:'/feedTheHunger',
+                element:<FeedTheHunger></FeedTheHunger>
+            },
+            {
+                path:'/foodyWorld',
+                element:<FoodyWorld></FoodyWorld>
             },
         ]
     }
