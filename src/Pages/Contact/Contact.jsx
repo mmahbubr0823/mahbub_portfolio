@@ -16,7 +16,6 @@ const Contact = () => {
             })
             .then(
                 (res) => {
-                    console.log(res);
                     if (res.status === 200) {
                         toast.success('Your message was successfully sent!');
                         setLoading(false);

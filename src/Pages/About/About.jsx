@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div>
                 <h1 className='text-2xl'>I'm Md. Mahbubur Rahman, a <span className='text-[#20c997]'>MERN Stack Web Developer.</span></h1>
-                <p className='my-5'>Dedicated web developer , Strong creative and analytical skills.Motivated designer and developer with experience creating custom websites.Strong collaboration skills and proven history of application development.</p>
+                <p className='my-5'>Dedicated web developer , Strong creative and analytical skills. Motivated designer and developer with experience creating custom websites. Strong collaboration skills and proven history of application development.</p>
             </div>
             </div>
            

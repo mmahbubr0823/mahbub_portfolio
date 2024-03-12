@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='mt-10'>
                 <h1 className='text-2xl mb-6'>My Latest Projects :</h1>
                 <div className='flex gap-5'>
-                    <Card className="max-w-[280px] overflow-hidden border-[1px] border-opacity-5 rounded-md">
+                    <Card className="max-w-[280px] flex flex-col overflow-hidden border-[1px] border-opacity-5 rounded-md">
                         <CardHeader
                             floated={false}
                             shadow={false}
@@ -18,17 +18,15 @@ const Projects = () => {
                             className="m-0 rounded-none"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
-                                alt="ui/ux review check"
+                                src="./img-1.jpg"
                             />
                         </CardHeader>
-                        <CardBody className='px-3 py-4'>
+                        <CardBody className='px-3 py-4 flex-grow'>
                             <Typography variant="h4" color="blue-gray">
-                                UI/UX Review Check
+                               Weedy Hub
                             </Typography>
                             <Typography variant="lead" color="gray" className="mt-3 text-base font-normal">
-                                Because it&apos;s about motivating the doers. Because I&apos;m here to
-                                follow my dreams and inspire others.
+                            Embrace Love's Journey: Your Perfect Match Awaits invites users to embark on the exciting adventure of finding their...
                             </Typography>
                         </CardBody>
                         <CardFooter className='mx-auto'>
@@ -37,7 +35,7 @@ const Projects = () => {
                             </Link>
                         </CardFooter>
                     </Card>
-                    <Card className="max-w-[280px] overflow-hidden border-[1px] border-opacity-5 rounded-md">
+                    <Card className="max-w-[280px] flex flex-col overflow-hidden border-[1px] border-opacity-5 rounded-md">
                         <CardHeader
                             floated={false}
                             shadow={false}
@@ -45,17 +43,16 @@ const Projects = () => {
                             className="m-0 rounded-none"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                                src="./img-2.jpg"
                                 alt="ui/ux review check"
                             />
                         </CardHeader>
-                        <CardBody className='px-3 py-4'>
+                        <CardBody className='px-3 py-4 flex-grow'>
                             <Typography variant="h4" color="blue-gray">
-                                UI/UX Review Check
+                                Feed The Hunger
                             </Typography>
                             <Typography variant="lead" color="gray" className="mt-3 text-base font-normal">
-                                Because it&apos;s about motivating the doers. Because I&apos;m here to
-                                follow my dreams and inspire others.
+                            By redirecting surplus food that would otherwise go to waste, the website aims to contribute to...
                             </Typography>
                         </CardBody>
                         <CardFooter className='mx-auto'>
@@ -64,7 +61,7 @@ const Projects = () => {
                             </Link>
                         </CardFooter>
                     </Card>
-                    <Card className="max-w-[280px] overflow-hidden border-[1px] border-opacity-5 rounded-md">
+                    <Card className="max-w-[280px] flex flex-col overflow-hidden border-[1px] border-opacity-5 rounded-md">
                         <CardHeader
                             floated={false}
                             shadow={false}
@@ -72,17 +69,16 @@ const Projects = () => {
                             className="m-0 rounded-none"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                                src="./img-3.jpg"
                                 alt="ui/ux review check"
                             />
                         </CardHeader>
-                        <CardBody className='px-3 py-4'>
+                        <CardBody className='px-3 py-4 flex-grow'>
                             <Typography variant="h4" color="blue-gray">
-                                UI/UX Review Check
+                                Foody World
                             </Typography>
                             <Typography variant="lead" color="gray" className="mt-3 text-base font-normal">
-                                Because it&apos;s about motivating the doers. Because I&apos;m here to
-                                follow my dreams and inspire others.
+                            Maintain high standards of food quality, freshness, and presentation throughout the delivery process...
                             </Typography>
                         </CardBody>
                         <CardFooter className='mx-auto'>

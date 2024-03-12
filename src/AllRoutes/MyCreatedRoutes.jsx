@@ -10,6 +10,7 @@ import Contact from "../Pages/Contact/Contact";
 import WeedyHub from "../Pages/ProjectsDetails/WeedyHub/WeedyHub";
 import FeedTheHunger from "../Pages/ProjectsDetails/FeedTheHunger/FeedTheHunger";
 import FoodyWorld from "../Pages/ProjectsDetails/FoodyWorld/FoodyWorld";
+import Page404 from "../Pages/Page404/Page404";
 const MyCreatedRoutes = createBrowserRouter([
     {
         path:'/',
@@ -56,7 +57,11 @@ const MyCreatedRoutes = createBrowserRouter([
                 path:'/foodyWorld',
                 element:<FoodyWorld></FoodyWorld>
             },
-        ]
+        ],
+    },
+    {
+        path:'*',
+        element:<Page404></Page404>
     }
 ])
 ;
