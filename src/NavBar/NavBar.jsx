@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaHome, FaTrophy,  FaUser, FaUserGraduate ,  } from "react-icons/fa";
+import { FaHome, FaTrophy,  FaUser  } from "react-icons/fa";
 import { IoListOutline } from "react-icons/io5";
 import { AiFillCarryOut } from "react-icons/ai";
 import { AiFillMessage } from "react-icons/ai";

@@ -39,7 +39,7 @@ const Contact = () => {
                     <textarea name="message" className="w-[60vw] bg-[#3c393c] bg-opacity-80 border-[1px] rounded-3xl px-6 py-3 " cols="30" rows="8" required placeholder="Message" />
                 {
                     loading === true ?
-                    <input className="w-[10vw] bg-[#e1d6b2] font-bold bg-opacity-80 border-[1px] border-[#20c997] rounded-xl px-6 py-3 hover:cursor-pointer" type="submit" value="Send" disabled />
+                    <input className="w-[10vw] bg-[#e1d6b2] font-bold bg-opacity-80 border-[1px] border-[#20c997] rounded-xl px-6 py-3 hover:cursor-pointer" type="submit" value="Sending.." disabled />
                     :
                     <input className="w-[10vw] bg-[#3c393c] font-bold bg-opacity-80 border-[1px] border-[#20c997] rounded-xl px-6 py-3 hover:cursor-pointer hover:bg-[#20c997] hover:text-black" type="submit" value="Send" disabled={loading === true} />
                 }
