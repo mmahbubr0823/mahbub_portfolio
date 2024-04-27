@@ -53,7 +53,7 @@ const Home = () => {
           </div>
         </div>
         <div className="author-img">
-          <img className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] xl:w-[400px]  xl:h-[400px] rounded-full border-[2px] border-[#20c997]" src="https://i.ibb.co/kmXnpqR/IMG-20230905-100823.jpg" alt="" />
+          <img className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] xl:w-[400px]  xl:h-[400px] rounded-full border-[2px] border-[#20c997]" src="./img-me.jpg" alt="" />
         </div>
       </div>
     </div>
